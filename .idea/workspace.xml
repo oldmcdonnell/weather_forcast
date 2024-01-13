@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7870c57-4414-4666-aee5-0fdbcbfdf074" name="Changes" comment="initial commit / GUI">
+    <list default="true" id="e7870c57-4414-4666-aee5-0fdbcbfdf074" name="Changes" comment="added sample plot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -80,11 +80,20 @@
       <option name="project" value="LOCAL" />
       <updated>1705171858620</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added sample plot">
+      <option name="closed" value="true" />
+      <created>1705173199129</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705173199129</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit / GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit / GUI" />
+    <MESSAGE value="added sample plot" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sample plot" />
   </component>
 </project>
