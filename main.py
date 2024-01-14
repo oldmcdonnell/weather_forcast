@@ -25,5 +25,9 @@ if place:
 
     #clouds
     if option == "Sky":
-        filtered_data = [dict["weather"][0]["main"] for dict in filtered_data]
-        st.image()
+        images = {"Clear":"images/clear.png", "Clouds":"images/cloud.png",
+                  "Rain":"images/rain.png","Snow":"images/snow.png"}
+        sky_conditions = [dict["weather"][0]["main"] for dict in filtered_data]
+        image_paths = [images[condition]for condition in sky_conditions]
+        print(sky_conditions)
+        st.image(image_paths, width=115)

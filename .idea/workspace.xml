@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7870c57-4414-4666-aee5-0fdbcbfdf074" name="Changes" comment="updated main temperature code, added plot, moved code from backend to main&#10;&#10;updated backend" />
+    <list default="true" id="e7870c57-4414-4666-aee5-0fdbcbfdf074" name="Changes" comment="fixed blank place">
+      <change afterPath="$PROJECT_DIR$/images/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/snow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705207871660</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed blank place">
+      <option name="closed" value="true" />
+      <created>1705208085557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705208085557</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +213,7 @@
     <MESSAGE value="added weather API in backend.py" />
     <MESSAGE value="filtered data from the weather API" />
     <MESSAGE value="updated main temperature code, added plot, moved code from backend to main&#10;&#10;updated backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated main temperature code, added plot, moved code from backend to main&#10;&#10;updated backend" />
+    <MESSAGE value="fixed blank place" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed blank place" />
   </component>
 </project>
