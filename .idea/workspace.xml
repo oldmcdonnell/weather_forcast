@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7870c57-4414-4666-aee5-0fdbcbfdf074" name="Changes" comment="plotted fake data, difficult to comprehend">
-      <change afterPath="$PROJECT_DIR$/backend.py" afterDir="false" />
+    <list default="true" id="e7870c57-4414-4666-aee5-0fdbcbfdf074" name="Changes" comment="added weather API in backend.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.backend.executor": "Debug",
+    "Python.backend.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -141,24 +140,22 @@
       <option name="project" value="LOCAL" />
       <updated>1705175542669</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added weather API in backend.py">
+      <option name="closed" value="true" />
+      <created>1705187462435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705187462435</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit / GUI" />
     <MESSAGE value="added sample plot" />
     <MESSAGE value="plotted fake data, difficult to comprehend" />
-    <option name="LAST_COMMIT_MESSAGE" value="plotted fake data, difficult to comprehend" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/backend.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="added weather API in backend.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added weather API in backend.py" />
   </component>
 </project>
