@@ -14,15 +14,16 @@ st.subheader(f"{option} for the next {days} days in {place}")
 #Get temperature or dky data
 filtered_data = get_data(place, days)
 
-#create a temperatur plot
-if option == "Temperature":
-    temperatures = [dict['main']['temp'] for dict in filtered_data]
-    dates = [dict["dt_txt"] for dict in filtered_data]
-    figure = px.line(x=dates, y=temperatures, labels={"x": "Date",
-                                   "y": "Temperature (C)"})
-    st.plotly_chart(figure)
+if place:
+    #create a temperatur plot
+    if option == "Temperature":
+        temperatures = [dict['main']['temp'] for dict in filtered_data]
+        dates = [dict["dt_txt"] for dict in filtered_data]
+        figure = px.line(x=dates, y=temperatures, labels={"x": "Date",
+                                       "y": "Temperature (C)"})
+        st.plotly_chart(figure)
 
-#clouds
-if option == "Sky":
-    filtered_data = [dict["weather"][0]["main"] for dict in filtered_data]
-    st.image()
+    #clouds
+    if option == "Sky":
+        filtered_data = [dict["weather"][0]["main"] for dict in filtered_data]
+        st.image()
