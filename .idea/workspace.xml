@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7870c57-4414-4666-aee5-0fdbcbfdf074" name="Changes" comment="filtered data from the weather API">
+    <list default="true" id="e7870c57-4414-4666-aee5-0fdbcbfdf074" name="Changes" comment="updated main temperature code, added plot, moved code from backend to main&#10;&#10;updated backend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RunManager" selected="Python.backend">
@@ -163,8 +162,27 @@
       <option name="project" value="LOCAL" />
       <updated>1705203682384</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated main temperature code, added plot, moved code from backend to main&#10;&#10;updated backend">
+      <option name="closed" value="true" />
+      <created>1705206261443</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705206261443</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit / GUI" />
@@ -172,6 +190,7 @@
     <MESSAGE value="plotted fake data, difficult to comprehend" />
     <MESSAGE value="added weather API in backend.py" />
     <MESSAGE value="filtered data from the weather API" />
-    <option name="LAST_COMMIT_MESSAGE" value="filtered data from the weather API" />
+    <MESSAGE value="updated main temperature code, added plot, moved code from backend to main&#10;&#10;updated backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated main temperature code, added plot, moved code from backend to main&#10;&#10;updated backend" />
   </component>
 </project>
